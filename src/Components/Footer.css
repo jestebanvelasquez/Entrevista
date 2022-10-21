@@ -1,0 +1,82 @@
+.footer {
+    background-image: url('../assets/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    top: 900px;
+    z-index: -10;
+    display: flex;
+    bottom: 40px;
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 600px;
+    margin-left: 200px;
+    
+}
+
+.footer h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    /* text-align: center; */
+    color: #ffffff;
+}
+
+.footer p {
+    color: white;
+}
+
+.phone {
+    display: flex;
+    width: auto;
+    height: auto;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+    margin-bottom: 20px;
+
+}
+.phone img{
+    object-fit: contain;
+
+}
+
+.email {
+    display: flex;
+    width: auto;
+    height: auto;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+}
+.email img{
+    object-fit: contain;
+
+}
+.social{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    right: 400px;
+    top: 250px;
+}
+.social img{
+    object-fit: contain;
+    padding: 8px;
+    gap: 30px;
+}
+
+.end{
+    position: absolute;
+    width: 70vw;
+    text-align: center;
+    top: 300px;
+    left: 170px;
+}

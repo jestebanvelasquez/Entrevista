@@ -1,0 +1,52 @@
+/* .container-vector{
+    width: 100vw;
+    height: 900px;
+    position: absolute;
+} */
+
+.vector {
+    position: absolute;
+    border-radius: 100% 100% 100% 100%;
+    width: 3262px;
+    height: 3000px;
+    left: -1016px;
+    top: -2050px;
+    z-index: -51;
+    background: #E6E7EE;
+
+}
+
+
+.elipse1 {
+    border-radius: 100% 100% 100% 100%;
+    z-index: -30;
+    position: absolute;
+    width: 3262px;
+    height: 3262px;
+    left: -1537.46px;
+    top: -2611.74px;
+    background: linear-gradient(93.69deg, #0B0E19 2.38%, #455492 96.59%);
+}
+
+.elipse2 {
+    border-radius: 100% 100% 100% 100%;
+    z-index: -40;
+    position: absolute;
+    width: 3262px;
+    height: 3262px;
+    left: -1188.46px;
+    top: -2393.74px;
+    background: linear-gradient(93.69deg, #0B0E19 2.38%, #455492 96.59%);
+}
+
+.elipse3 {
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    width: 3262px;
+    height: 3262px;
+    left: -1036px;
+    top: -2341px;
+    z-index: -41;
+    background: linear-gradient(93.69deg, #0B0E19 2.38%, #455492 96.59%);
+
+}
